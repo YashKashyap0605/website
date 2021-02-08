@@ -1,0 +1,249 @@
+body
+{
+	background-image: linear-gradient(black,#cdd0cb,black);
+	color: white;
+}
+{
+	color: white;
+}
+.headings
+{
+		font-weight: bold;
+		text-decoration: underline;
+		font-family: 'Zilla Slab', serif;
+		padding-top: 10%;
+		padding-bottom: 5%;
+}
+.des
+{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-family: 'Indie Flower', cursive;
+	color: black
+	font-weight: lighter;
+}
+/* -------------------------------------------INTRO SECTION---------------------------------------------- */
+.bigheading
+{
+	padding-top: 2%;
+	position: relative;
+	margin: auto;
+	color: #f4f9f9;
+
+}
+.big
+{
+	padding-top: 2%;
+	position: relative;
+	margin: auto;
+	color: #f4f9f9;
+
+}
+
+.des
+{
+	color: #f4f9f9;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+.bigheading
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4rem;
+	font-weight: bold;
+}
+/*------------------------------------------------------ABOUT SECTION------------------------------------------------------ */
+#about
+{
+	
+	color:black;
+	position:relative;
+	
+}
+
+.ab
+{
+	padding-top: 1rem;
+	color: black;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.aboutpic
+{
+	width: 15rem;
+	border-radius: 100%;
+	padding-bottom: 5rem;
+	
+}
+/* -----------------------------------------------------SKILLS SECTION----------------------------------------------------- */
+#Skills
+{
+
+	position: relative;
+	padding-top: 10%;
+
+	color: black;
+	
+}
+#d
+{
+	color:#f8f1f1;
+	font-size: 1.5rem;
+	padding-top: 4%;
+}
+
+
+.simg
+{
+	width: 15rem;
+	display: inline-block;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	
+}
+	
+/* ----------------------------------------------------PROJECTS SECTION--------------------------------------------------- */
+#projects
+{
+	color: black;
+	
+}
+.ph
+{
+	padding-top: 10%;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: 'Zilla Slab', serif;
+	padding-bottom: 2rem;
+	
+}
+.pd
+{	
+
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-weight: lighter;
+
+}
+/*-------------------------------------------------------FOOTER SECTION-------------------------------------------------- */
+.social-icon
+{
+	margin: 2rem;
+	font-size:120%;
+}
+.footer
+{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.footer-text
+{
+	padding-top: 2%;
+	color: white;
+	font-weight: lighter;
+	padding-bottom: 5%;
+}
+/* ******************************************************************************************************** */
+@media screen and (max-width: 1400px){
+    
+.navbar-toggler
+    {
+       
+        height:10%;
+    }
+.navbar
+{
+    font-size:200%;
+}
+.big
+{
+    font-size:500%;
+	padding-top:10%;
+	padding-bottom:3%;
+}
+
+.bigheading
+{
+    font-size:500%;
+	padding-top:5%;
+	padding-bottom:3%;
+}
+.des
+{
+    font-size:230%;
+	padding-top:5%;
+	padding-bottom: 10%;
+}
+.intro
+{
+	display: block;
+}
+.headings
+{
+	
+	
+	font-size: 400%;
+	padding-top:20%;
+	padding-bottom:10%;
+}
+.aboutpic{
+    padding-top:5%;
+	width: 50%;
+	padding-bottom:5%;
+
+}
+.ab
+{
+	
+	
+	font-size: 200%;
+	line-height:1.6;
+}
+.simg
+{
+    
+    width:60%;
+    padding-bottom:10%;
+    padding-top: 3%;
+}
+#d
+{
+    
+    padding-bottom: 7%%;
+    font-size: 250%;
+}
+.ph
+{
+    
+    font-size:400%;
+    padding-top:10%;
+    padding-bottom:30%;
+}
+.pd
+{
+    font-size:400%;
+    padding-bottom:50%;
+}
+.social-icon
+
+{
+    
+    font-size:400%;
+}
+.footer-text
+{
+    font-size:150%;
+    padding-top:20%;
+    padding-bottom:20%;
+}
+}
+
